@@ -10,8 +10,8 @@ rustPlatform.buildRustPackage rec {
   src = fetchFromGitHub {
     owner = "Weeeee-i";
     repo = pname;
-    rev = "8738dd8484349f3d7c7391df6e0f0dd42e71e900";
-    hash = "sha256-dLPIQccV9NsfMBXXTQpdhIf3ViCBAEng3uSOx8slZk4=";
+    rev = "802b9098b569a4aec5fb728ee936485ef7ace9d0";
+    hash = "sha256-FG8jQv86zUkBhVg9cH3T7TjdMgSW2GvQ2oBZGOz+8r8=";
   };
 
   cargoHash = "sha256-Tk47bSqJ0oifNHtbOstznncML6Lb0jUVbY4pFfhpzqI=";
