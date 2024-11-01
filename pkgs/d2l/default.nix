@@ -1,5 +1,5 @@
 {pkgs ? import <nixpkgs> {}}:
-pkgs.python3Packages.buildPythonPackage rec {
+pkgs.python311Packages.buildPythonPackage rec {
   pname = "d2l";
   version = "1.0.3";
 
@@ -9,16 +9,15 @@ pkgs.python3Packages.buildPythonPackage rec {
   };
 
   propagatedBuildInputs = [
-    pkgs.python3Packages.numpy
-    pkgs.python3Packages.matplotlib
-    pkgs.python3Packages.pandas
-    # 添加其他依赖项
+    pkgs.python311Packages.numpy
+    pkgs.python311Packages.matplotlib
+    pkgs.python311Packages.pandas
   ];
 
   meta = with pkgs.lib; {
     description = "D2L: A framework for deep learning";
     homepage = "https://d2l.ai/";
-    license = licenses.mit; # 请检查许可信息
+    license = licenses.mit;
     maintainers = [maintainers.yourGithubUsername];
   };
 }

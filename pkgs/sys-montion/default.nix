@@ -10,7 +10,7 @@ rustPlatform.buildRustPackage rec {
   src = fetchFromGitHub {
     owner = "Weeeee-i";
     repo = pname;
-    rev = "597790123e86900ebe104557f40f4df0063fd695";
+    rev = "73a199926bbb6e9aa99f055440755a6217bfe00e";
     hash = "";
   };
 
