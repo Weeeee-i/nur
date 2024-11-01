@@ -14,5 +14,6 @@
   # example-package = pkgs.callPackage ./pkgs/example-package { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   sys-montion = pkgs.callPackage ./pkgs/sys-montion {};
+  d2l = pkgs.callPackage ./pkgs/d2l {};
   # ...
 }
